@@ -12,21 +12,34 @@ You can set it to run on startup in the General settings
 
 ### Git
 Try to run this command in terminal: 
-
+```
 git
-
+```
 If you don't have it installed, you will be prompted to.
 
-Agree to install
+Agree to install by entering "y" and "Enter"
 
 ## Setting up
 In terminal:
 
+(Optional): Enter an installation path, if you prefer a different installation location then /home/<youruser>
+```
+  #Example:
+  cd ~/Documents
+```
+Now you are ready to copy the required files:
+```
 git clone https://github.com/dylanwijman/logshark.git
-
-Run initialize.command from finder
+```
+Run initialize.command from finder by double clicking.
+  
+This file can be found in the newly created logshark directory.
+  
+A terminal window will pop up to set up logshark and create the directories.
 
 ## Running Logshark
-Put a logs archive with the name "Logs.zip" in the input directory
+Simply put a logs archive with the name "Logs.zip" in the input directory
 
 NOTE: This name has to match.
+  
+Default location of the input directory is: <b> /home/yourusername/logshark/input <b>

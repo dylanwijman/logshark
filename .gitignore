@@ -3,3 +3,4 @@ input/
 output/
 LogSharkConfig.json
 Logshark/
+.DS_Store

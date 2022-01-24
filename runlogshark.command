@@ -1,0 +1,2 @@
+#docker run --rm -v /Users/dylanwijman/lslogs/Logs.zip:/app/logs.zip -v /Users/dylanwijman/lsoutput:/app/Output -v /Users/dylanwijman/Logshark/LogShark/Config/LogSharkConfig.json:/app/Config/LogSharkConfig.json logshark:latest logs.zip --plugins "ALL" -p
+docker run --rm -v "$HOME"/logshark-docker/input/Logs.zip:/app/logs.zip -v "$HOME"/logshark-docker/output:/app/Output -v "$HOME"/logshark-docker/LogSharkConfig.json:/app/Config/LogSharkConfig.json logshark:latest logs.zip --plugins "ALL" -p

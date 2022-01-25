@@ -6,15 +6,25 @@ Try to run this command in terminal:
 ```
 git
 ```
-If you don't have it installed, you might be prompted to install developer tools.
+If you already have it installed, you should see output like this:
+```
+(base) ➜  ~ git                                                         
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           [--super-prefix=<path>] [--config-env=<name>=<envvar>]
+           <command> [<args>]
+```
+If you don't have it installed, you wil be prompted to install developer tools.
 
-Install the developer tools, if needed
+Install the developer tools, so git and other command line tools are installed.
 
 NOTE: This can take a while to install.
 In the meantime you can proceed installing Docker
 
 ### Docker
-1. Go to https://docs.docker.com/desktop/mac/install/ to download the installer
+1. Go to https://docs.docker.com/desktop/mac/install/ to download the appropriate installer
 2. Install the application
 3. Make sure docker is running by checking if this icon is present:
 <img width="395" alt="Screen Shot 2022-01-24 at 15 10 46" src="https://user-images.githubusercontent.com/6339819/150816789-20b8c7f3-52cf-4097-803d-470576bba8cc.png">
@@ -28,7 +38,7 @@ Open terminal:
 
 The default install location is: <b>/home/yourusername/logshark</b>
 
-If you want to change this, go to the alternative directory using "cd":
+If you want to change the install location, go to the alternative directory using "cd":
 
 ```
   #Example:

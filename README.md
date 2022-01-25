@@ -8,7 +8,7 @@ git
 ```
 If you don't have it installed, you might be prompted to install developer tools.
 
-Agree to install by entering "y" and "Enter"
+Install the developer tools, if needed
 
 NOTE: This can take a while to install.
 In the meantime you can proceed installing Docker

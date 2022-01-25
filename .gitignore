@@ -5,3 +5,5 @@ LogSharkConfig.json
 Logshark/
 .DS_Store
 Archive.zip
+.DS_Store
+**/.DS_Store

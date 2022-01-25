@@ -1,0 +1,702 @@
+[40m[32minfo[39m[22m[49m: LogShark.LogSharkRunner[0]
+      Starting to process Log set logs.zip
+[40m[32minfo[39m[22m[49m: LogShark.LogSharkRunner[0]
+      Generated Run ID: 22012510414270-a22776d33020-logs
+[40m[32minfo[39m[22m[49m: LogShark.LogSharkRunner[0]
+      Hyper Writer requested. Initializing writer factory...
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs
+      Using temp folder `/tmp/LogShark`
+[40m[32minfo[39m[22m[49m: LogShark.Shared.LogReading.TableauLogsExtractor[0]
+      => 22012510414270-a22776d33020-logs
+      Starting TableauLogsExtractor for log set `logs.zip`
+[40m[32minfo[39m[22m[49m: LogShark.Shared.LogReading.TableauLogsExtractor[0]
+      => 22012510414270-a22776d33020-logs
+      Provided log set appears to be directory
+[40m[32minfo[39m[22m[49m: LogShark.Shared.LogReading.TableauLogsExtractor[0]
+      => 22012510414270-a22776d33020-logs
+      Looking for typical zip files inside 'logs.zip' folder
+[40m[32minfo[39m[22m[49m: LogShark.Shared.LogReading.TableauLogsExtractor[0]
+      => 22012510414270-a22776d33020-logs
+      Did not found any known zip files inside `logs.zip`
+[40m[32minfo[39m[22m[49m: LogShark.Shared.LogReading.TableauLogsExtractor[0]
+      => 22012510414270-a22776d33020-logs
+      Completed TableauLogsExtractor for log set `logs.zip`
+[40m[32minfo[39m[22m[49m: LogShark.Plugins.PluginManager[0]
+      => 22012510414270-a22776d33020-logs
+      Loading plugins: Apache;Art;Backgrounder;ClusterController;Config;DataServer;Filestore;Hyper;Netstat;Postgres;ResourceManager;SearchServer;ServerTelemetry;Tabadmin;TabadminController;Vizportal;VizqlDesktop
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriterFactory[0]
+      => 22012510414270-a22776d33020-logs
+      Creating writer for Apache_ApacheRequests
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriter[0]
+      => 22012510414270-a22776d33020-logs
+      HyperWriter created for database /app/Output/22012510414270-a22776d33020-logs/hyper/ApacheRequests.hyper and table ApacheRequests
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriterFactory[0]
+      => 22012510414270-a22776d33020-logs
+      Creating writer for Art_ArtDesktop
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriter[0]
+      => 22012510414270-a22776d33020-logs
+      HyperWriter created for database /app/Output/22012510414270-a22776d33020-logs/hyper/ArtDesktop.hyper and table ArtDesktop
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriterFactory[0]
+      => 22012510414270-a22776d33020-logs
+      Creating writer for Art_Art
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriter[0]
+      => 22012510414270-a22776d33020-logs
+      HyperWriter created for database /app/Output/22012510414270-a22776d33020-logs/hyper/Art.hyper and table Art
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriterFactory[0]
+      => 22012510414270-a22776d33020-logs
+      Creating writer for Backgrounder_BackgrounderJobs
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriter[0]
+      => 22012510414270-a22776d33020-logs
+      HyperWriter created for database /app/Output/22012510414270-a22776d33020-logs/hyper/BackgrounderJobs.hyper and table BackgrounderJobs
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriterFactory[0]
+      => 22012510414270-a22776d33020-logs
+      Creating writer for Backgrounder_BackgrounderJobErrors
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriter[0]
+      => 22012510414270-a22776d33020-logs
+      HyperWriter created for database /app/Output/22012510414270-a22776d33020-logs/hyper/BackgrounderJobErrors.hyper and table BackgrounderJobErrors
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriterFactory[0]
+      => 22012510414270-a22776d33020-logs
+      Creating writer for Backgrounder_BackgrounderExtractJobDetails
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriter[0]
+      => 22012510414270-a22776d33020-logs
+      HyperWriter created for database /app/Output/22012510414270-a22776d33020-logs/hyper/BackgrounderExtractJobDetails.hyper and table BackgrounderExtractJobDetails
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriterFactory[0]
+      => 22012510414270-a22776d33020-logs
+      Creating writer for Backgrounder_BackgrounderSubscriptionJobDetails
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriter[0]
+      => 22012510414270-a22776d33020-logs
+      HyperWriter created for database /app/Output/22012510414270-a22776d33020-logs/hyper/BackgrounderSubscriptionJobDetails.hyper and table BackgrounderSubscriptionJobDetails
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriterFactory[0]
+      => 22012510414270-a22776d33020-logs
+      Creating writer for ClusterController_ClusterControllerErrors
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriter[0]
+      => 22012510414270-a22776d33020-logs
+      HyperWriter created for database /app/Output/22012510414270-a22776d33020-logs/hyper/ClusterControllerErrors.hyper and table ClusterControllerErrors
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriterFactory[0]
+      => 22012510414270-a22776d33020-logs
+      Creating writer for ClusterController_ClusterControllerPostgresActions
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriter[0]
+      => 22012510414270-a22776d33020-logs
+      HyperWriter created for database /app/Output/22012510414270-a22776d33020-logs/hyper/ClusterControllerPostgresActions.hyper and table ClusterControllerPostgresActions
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriterFactory[0]
+      => 22012510414270-a22776d33020-logs
+      Creating writer for ClusterController_ClusterControllerDiskSpaceSamples
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriter[0]
+      => 22012510414270-a22776d33020-logs
+      HyperWriter created for database /app/Output/22012510414270-a22776d33020-logs/hyper/ClusterControllerDiskSpaceSamples.hyper and table ClusterControllerDiskSpaceSamples
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriterFactory[0]
+      => 22012510414270-a22776d33020-logs
+      Creating writer for ClusterController_ClusterControllerDiskIoSamples
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriter[0]
+      => 22012510414270-a22776d33020-logs
+      HyperWriter created for database /app/Output/22012510414270-a22776d33020-logs/hyper/ClusterControllerDiskIoSamples.hyper and table ClusterControllerDiskIoSamples
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriterFactory[0]
+      => 22012510414270-a22776d33020-logs
+      Creating writer for ClusterController_ZookeeperErrors
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriter[0]
+      => 22012510414270-a22776d33020-logs
+      HyperWriter created for database /app/Output/22012510414270-a22776d33020-logs/hyper/ZookeeperErrors.hyper and table ZookeeperErrors
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriterFactory[0]
+      => 22012510414270-a22776d33020-logs
+      Creating writer for ClusterController_ZookeeperFsyncLatencies
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriter[0]
+      => 22012510414270-a22776d33020-logs
+      HyperWriter created for database /app/Output/22012510414270-a22776d33020-logs/hyper/ZookeeperFsyncLatencies.hyper and table ZookeeperFsyncLatencies
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriterFactory[0]
+      => 22012510414270-a22776d33020-logs
+      Creating writer for Config_ConfigEntries
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriter[0]
+      => 22012510414270-a22776d33020-logs
+      HyperWriter created for database /app/Output/22012510414270-a22776d33020-logs/hyper/ConfigEntries.hyper and table ConfigEntries
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriterFactory[0]
+      => 22012510414270-a22776d33020-logs
+      Creating writer for Config_ProcessTopology
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriter[0]
+      => 22012510414270-a22776d33020-logs
+      HyperWriter created for database /app/Output/22012510414270-a22776d33020-logs/hyper/ProcessTopology.hyper and table ProcessTopology
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriterFactory[0]
+      => 22012510414270-a22776d33020-logs
+      Creating writer for DataServer_DataServerEvents
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriter[0]
+      => 22012510414270-a22776d33020-logs
+      HyperWriter created for database /app/Output/22012510414270-a22776d33020-logs/hyper/DataServerEvents.hyper and table DataServerEvents
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriterFactory[0]
+      => 22012510414270-a22776d33020-logs
+      Creating writer for Filestore_Filestore
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriter[0]
+      => 22012510414270-a22776d33020-logs
+      HyperWriter created for database /app/Output/22012510414270-a22776d33020-logs/hyper/Filestore.hyper and table Filestore
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriterFactory[0]
+      => 22012510414270-a22776d33020-logs
+      Creating writer for Hyper_HyperErrors
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriter[0]
+      => 22012510414270-a22776d33020-logs
+      HyperWriter created for database /app/Output/22012510414270-a22776d33020-logs/hyper/HyperErrors.hyper and table HyperErrors
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriterFactory[0]
+      => 22012510414270-a22776d33020-logs
+      Creating writer for Hyper_HyperQueries
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriter[0]
+      => 22012510414270-a22776d33020-logs
+      HyperWriter created for database /app/Output/22012510414270-a22776d33020-logs/hyper/HyperQueries.hyper and table HyperQueries
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriterFactory[0]
+      => 22012510414270-a22776d33020-logs
+      Creating writer for Netstat_NetstatEntries
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriter[0]
+      => 22012510414270-a22776d33020-logs
+      HyperWriter created for database /app/Output/22012510414270-a22776d33020-logs/hyper/NetstatEntries.hyper and table NetstatEntries
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriterFactory[0]
+      => 22012510414270-a22776d33020-logs
+      Creating writer for Postgres_PostgresEvents
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriter[0]
+      => 22012510414270-a22776d33020-logs
+      HyperWriter created for database /app/Output/22012510414270-a22776d33020-logs/hyper/PostgresEvents.hyper and table PostgresEvents
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriterFactory[0]
+      => 22012510414270-a22776d33020-logs
+      Creating writer for ResourceManager_ResourceManagerActions
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriter[0]
+      => 22012510414270-a22776d33020-logs
+      HyperWriter created for database /app/Output/22012510414270-a22776d33020-logs/hyper/ResourceManagerActions.hyper and table ResourceManagerActions
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriterFactory[0]
+      => 22012510414270-a22776d33020-logs
+      Creating writer for ResourceManager_ResourceManagerCpuSamples
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriter[0]
+      => 22012510414270-a22776d33020-logs
+      HyperWriter created for database /app/Output/22012510414270-a22776d33020-logs/hyper/ResourceManagerCpuSamples.hyper and table ResourceManagerCpuSamples
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriterFactory[0]
+      => 22012510414270-a22776d33020-logs
+      Creating writer for ResourceManager_ResourceManagerMemorySamples
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriter[0]
+      => 22012510414270-a22776d33020-logs
+      HyperWriter created for database /app/Output/22012510414270-a22776d33020-logs/hyper/ResourceManagerMemorySamples.hyper and table ResourceManagerMemorySamples
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriterFactory[0]
+      => 22012510414270-a22776d33020-logs
+      Creating writer for ResourceManager_ResourceManagerThresholds
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriter[0]
+      => 22012510414270-a22776d33020-logs
+      HyperWriter created for database /app/Output/22012510414270-a22776d33020-logs/hyper/ResourceManagerThresholds.hyper and table ResourceManagerThresholds
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriterFactory[0]
+      => 22012510414270-a22776d33020-logs
+      Creating writer for ResourceManager_ResourceManagerHighCpuUsages
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriter[0]
+      => 22012510414270-a22776d33020-logs
+      HyperWriter created for database /app/Output/22012510414270-a22776d33020-logs/hyper/ResourceManagerHighCpuUsages.hyper and table ResourceManagerHighCpuUsages
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriterFactory[0]
+      => 22012510414270-a22776d33020-logs
+      Creating writer for SearchServer_SearchServerEvents
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriter[0]
+      => 22012510414270-a22776d33020-logs
+      HyperWriter created for database /app/Output/22012510414270-a22776d33020-logs/hyper/SearchServerEvents.hyper and table SearchServerEvents
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriterFactory[0]
+      => 22012510414270-a22776d33020-logs
+      Creating writer for ServerTelemetry_ServerTelemetryEvents
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriter[0]
+      => 22012510414270-a22776d33020-logs
+      HyperWriter created for database /app/Output/22012510414270-a22776d33020-logs/hyper/ServerTelemetryEvents.hyper and table ServerTelemetryEvents
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriterFactory[0]
+      => 22012510414270-a22776d33020-logs
+      Creating writer for ServerTelemetry_ServerTelemetryMetrics
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriter[0]
+      => 22012510414270-a22776d33020-logs
+      HyperWriter created for database /app/Output/22012510414270-a22776d33020-logs/hyper/ServerTelemetryMetrics.hyper and table ServerTelemetryMetrics
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriterFactory[0]
+      => 22012510414270-a22776d33020-logs
+      Creating writer for Tabadmin_TabadminActions
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriter[0]
+      => 22012510414270-a22776d33020-logs
+      HyperWriter created for database /app/Output/22012510414270-a22776d33020-logs/hyper/TabadminActions.hyper and table TabadminActions
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriterFactory[0]
+      => 22012510414270-a22776d33020-logs
+      Creating writer for Tabadmin_TableauServerVersions
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriter[0]
+      => 22012510414270-a22776d33020-logs
+      HyperWriter created for database /app/Output/22012510414270-a22776d33020-logs/hyper/TableauServerVersions.hyper and table TableauServerVersions
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriterFactory[0]
+      => 22012510414270-a22776d33020-logs
+      Creating writer for Tabadmin_TabadminErrors
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriter[0]
+      => 22012510414270-a22776d33020-logs
+      HyperWriter created for database /app/Output/22012510414270-a22776d33020-logs/hyper/TabadminErrors.hyper and table TabadminErrors
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriterFactory[0]
+      => 22012510414270-a22776d33020-logs
+      Creating writer for TabadminController_TabadminControllerEvents
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriter[0]
+      => 22012510414270-a22776d33020-logs
+      HyperWriter created for database /app/Output/22012510414270-a22776d33020-logs/hyper/TabadminControllerEvents.hyper and table TabadminControllerEvents
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriterFactory[0]
+      => 22012510414270-a22776d33020-logs
+      Creating writer for Vizportal_VizportalEvents
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriter[0]
+      => 22012510414270-a22776d33020-logs
+      HyperWriter created for database /app/Output/22012510414270-a22776d33020-logs/hyper/VizportalEvents.hyper and table VizportalEvents
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriterFactory[0]
+      => 22012510414270-a22776d33020-logs
+      Creating writer for VizqlDesktop_VizqlDesktopSessions
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriter[0]
+      => 22012510414270-a22776d33020-logs
+      HyperWriter created for database /app/Output/22012510414270-a22776d33020-logs/hyper/VizqlDesktopSessions.hyper and table VizqlDesktopSessions
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriterFactory[0]
+      => 22012510414270-a22776d33020-logs
+      Creating writer for VizqlDesktop_VizqlDesktopErrorEvents
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriter[0]
+      => 22012510414270-a22776d33020-logs
+      HyperWriter created for database /app/Output/22012510414270-a22776d33020-logs/hyper/VizqlDesktopErrorEvents.hyper and table VizqlDesktopErrorEvents
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriterFactory[0]
+      => 22012510414270-a22776d33020-logs
+      Creating writer for VizqlDesktop_VizqlDesktopEndQueryEvents
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriter[0]
+      => 22012510414270-a22776d33020-logs
+      HyperWriter created for database /app/Output/22012510414270-a22776d33020-logs/hyper/VizqlDesktopEndQueryEvents.hyper and table VizqlDesktopEndQueryEvents
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriterFactory[0]
+      => 22012510414270-a22776d33020-logs
+      Creating writer for VizqlDesktop_VizqlDesktopPerformanceEvents
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriter[0]
+      => 22012510414270-a22776d33020-logs
+      HyperWriter created for database /app/Output/22012510414270-a22776d33020-logs/hyper/VizqlDesktopPerformanceEvents.hyper and table VizqlDesktopPerformanceEvents
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs
+      Based on requested plugins, the following log types will be processed: Apache, BackgrounderCpp, BackgrounderJava, ClusterController, ControlLogsJava, DataserverCpp, DataserverJava, Filestore, Hyper, NetstatLinux, NetstatWindows, PostgresCsv, ProtocolServer, SearchServer, Tabadmin, TabadminAgentJava, TabadminControllerJava, TabsvcYml, VizportalCpp, VizportalJava, VizqlserverCpp, VizqlDesktop, WorkgroupYml, Zookeeper
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs
+      Starting to process Apache logs
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs => Apache
+      Starting to process log set part `logs.zip` for Apache logs
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs => Apache
+      Completed processing `logs.zip` for Apache logs. Processed 0 files in 00:00:00. Elapsed: 00:00:00. Total size: 0 MB. Processing at 0.00 MB/sec
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs
+      Done processing Apache logs. Processed 0 files in 00:00:00. Elapsed: 00:00:00. Total size: 0 MB. Processing at 0.00 MB/sec
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs
+      Starting to process BackgrounderCpp logs
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs => BackgrounderCpp
+      Starting to process log set part `logs.zip` for BackgrounderCpp logs
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs => BackgrounderCpp
+      Completed processing `logs.zip` for BackgrounderCpp logs. Processed 0 files in 00:00:00. Elapsed: 00:00:00. Total size: 0 MB. Processing at 0.00 MB/sec
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs
+      Done processing BackgrounderCpp logs. Processed 0 files in 00:00:00. Elapsed: 00:00:00. Total size: 0 MB. Processing at 0.00 MB/sec
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs
+      Starting to process DataserverCpp logs
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs => DataserverCpp
+      Starting to process log set part `logs.zip` for DataserverCpp logs
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs => DataserverCpp
+      Completed processing `logs.zip` for DataserverCpp logs. Processed 0 files in 00:00:00. Elapsed: 00:00:00. Total size: 0 MB. Processing at 0.00 MB/sec
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs
+      Done processing DataserverCpp logs. Processed 0 files in 00:00:00. Elapsed: 00:00:00. Total size: 0 MB. Processing at 0.00 MB/sec
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs
+      Starting to process VizqlDesktop logs
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs => VizqlDesktop
+      Starting to process log set part `logs.zip` for VizqlDesktop logs
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs => VizqlDesktop
+      Completed processing `logs.zip` for VizqlDesktop logs. Processed 0 files in 00:00:00. Elapsed: 00:00:00. Total size: 0 MB. Processing at 0.00 MB/sec
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs
+      Done processing VizqlDesktop logs. Processed 0 files in 00:00:00. Elapsed: 00:00:00. Total size: 0 MB. Processing at 0.00 MB/sec
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs
+      Starting to process VizqlserverCpp logs
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs => VizqlserverCpp
+      Starting to process log set part `logs.zip` for VizqlserverCpp logs
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs => VizqlserverCpp
+      Completed processing `logs.zip` for VizqlserverCpp logs. Processed 0 files in 00:00:00. Elapsed: 00:00:00. Total size: 0 MB. Processing at 0.00 MB/sec
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs
+      Done processing VizqlserverCpp logs. Processed 0 files in 00:00:00. Elapsed: 00:00:00. Total size: 0 MB. Processing at 0.00 MB/sec
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs
+      Starting to process BackgrounderJava logs
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs => BackgrounderJava
+      Starting to process log set part `logs.zip` for BackgrounderJava logs
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs => BackgrounderJava
+      Completed processing `logs.zip` for BackgrounderJava logs. Processed 0 files in 00:00:00. Elapsed: 00:00:00. Total size: 0 MB. Processing at 0.00 MB/sec
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs
+      Done processing BackgrounderJava logs. Processed 0 files in 00:00:00. Elapsed: 00:00:00. Total size: 0 MB. Processing at 0.00 MB/sec
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs
+      Starting to process ClusterController logs
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs => ClusterController
+      Starting to process log set part `logs.zip` for ClusterController logs
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs => ClusterController
+      Completed processing `logs.zip` for ClusterController logs. Processed 0 files in 00:00:00. Elapsed: 00:00:00. Total size: 0 MB. Processing at 0.00 MB/sec
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs
+      Done processing ClusterController logs. Processed 0 files in 00:00:00. Elapsed: 00:00:00. Total size: 0 MB. Processing at 0.00 MB/sec
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs
+      Starting to process Zookeeper logs
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs => Zookeeper
+      Starting to process log set part `logs.zip` for Zookeeper logs
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs => Zookeeper
+      Completed processing `logs.zip` for Zookeeper logs. Processed 0 files in 00:00:00. Elapsed: 00:00:00. Total size: 0 MB. Processing at 0.00 MB/sec
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs
+      Done processing Zookeeper logs. Processed 0 files in 00:00:00. Elapsed: 00:00:00. Total size: 0 MB. Processing at 0.00 MB/sec
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs
+      Starting to process TabsvcYml logs
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs => TabsvcYml
+      Starting to process log set part `logs.zip` for TabsvcYml logs
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs => TabsvcYml
+      Completed processing `logs.zip` for TabsvcYml logs. Processed 0 files in 00:00:00. Elapsed: 00:00:00. Total size: 0 MB. Processing at 0.00 MB/sec
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs
+      Done processing TabsvcYml logs. Processed 0 files in 00:00:00. Elapsed: 00:00:00. Total size: 0 MB. Processing at 0.00 MB/sec
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs
+      Starting to process WorkgroupYml logs
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs => WorkgroupYml
+      Starting to process log set part `logs.zip` for WorkgroupYml logs
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs => WorkgroupYml
+      Completed processing `logs.zip` for WorkgroupYml logs. Processed 0 files in 00:00:00. Elapsed: 00:00:00. Total size: 0 MB. Processing at 0.00 MB/sec
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs
+      Done processing WorkgroupYml logs. Processed 0 files in 00:00:00. Elapsed: 00:00:00. Total size: 0 MB. Processing at 0.00 MB/sec
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs
+      Starting to process DataserverJava logs
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs => DataserverJava
+      Starting to process log set part `logs.zip` for DataserverJava logs
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs => DataserverJava
+      Completed processing `logs.zip` for DataserverJava logs. Processed 0 files in 00:00:00. Elapsed: 00:00:00. Total size: 0 MB. Processing at 0.00 MB/sec
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs
+      Done processing DataserverJava logs. Processed 0 files in 00:00:00. Elapsed: 00:00:00. Total size: 0 MB. Processing at 0.00 MB/sec
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs
+      Starting to process Filestore logs
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs => Filestore
+      Starting to process log set part `logs.zip` for Filestore logs
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs => Filestore
+      Completed processing `logs.zip` for Filestore logs. Processed 0 files in 00:00:00. Elapsed: 00:00:00. Total size: 0 MB. Processing at 0.00 MB/sec
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs
+      Done processing Filestore logs. Processed 0 files in 00:00:00. Elapsed: 00:00:00. Total size: 0 MB. Processing at 0.00 MB/sec
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs
+      Starting to process Hyper logs
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs => Hyper
+      Starting to process log set part `logs.zip` for Hyper logs
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs => Hyper
+      Completed processing `logs.zip` for Hyper logs. Processed 0 files in 00:00:00. Elapsed: 00:00:00. Total size: 0 MB. Processing at 0.00 MB/sec
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs
+      Done processing Hyper logs. Processed 0 files in 00:00:00. Elapsed: 00:00:00. Total size: 0 MB. Processing at 0.00 MB/sec
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs
+      Starting to process NetstatLinux logs
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs => NetstatLinux
+      Starting to process log set part `logs.zip` for NetstatLinux logs
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs => NetstatLinux
+      Completed processing `logs.zip` for NetstatLinux logs. Processed 0 files in 00:00:00. Elapsed: 00:00:00. Total size: 0 MB. Processing at 0.00 MB/sec
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs
+      Done processing NetstatLinux logs. Processed 0 files in 00:00:00. Elapsed: 00:00:00. Total size: 0 MB. Processing at 0.00 MB/sec
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs
+      Starting to process NetstatWindows logs
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs => NetstatWindows
+      Starting to process log set part `logs.zip` for NetstatWindows logs
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs => NetstatWindows
+      Completed processing `logs.zip` for NetstatWindows logs. Processed 0 files in 00:00:00. Elapsed: 00:00:00. Total size: 0 MB. Processing at 0.00 MB/sec
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs
+      Done processing NetstatWindows logs. Processed 0 files in 00:00:00. Elapsed: 00:00:00. Total size: 0 MB. Processing at 0.00 MB/sec
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs
+      Starting to process PostgresCsv logs
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs => PostgresCsv
+      Starting to process log set part `logs.zip` for PostgresCsv logs
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs => PostgresCsv
+      Completed processing `logs.zip` for PostgresCsv logs. Processed 0 files in 00:00:00. Elapsed: 00:00:00. Total size: 0 MB. Processing at 0.00 MB/sec
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs
+      Done processing PostgresCsv logs. Processed 0 files in 00:00:00. Elapsed: 00:00:00. Total size: 0 MB. Processing at 0.00 MB/sec
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs
+      Starting to process ProtocolServer logs
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs => ProtocolServer
+      Starting to process log set part `logs.zip` for ProtocolServer logs
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs => ProtocolServer
+      Completed processing `logs.zip` for ProtocolServer logs. Processed 0 files in 00:00:00. Elapsed: 00:00:00. Total size: 0 MB. Processing at 0.00 MB/sec
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs
+      Done processing ProtocolServer logs. Processed 0 files in 00:00:00. Elapsed: 00:00:00. Total size: 0 MB. Processing at 0.00 MB/sec
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs
+      Starting to process VizportalCpp logs
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs => VizportalCpp
+      Starting to process log set part `logs.zip` for VizportalCpp logs
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs => VizportalCpp
+      Completed processing `logs.zip` for VizportalCpp logs. Processed 0 files in 00:00:00. Elapsed: 00:00:00. Total size: 0 MB. Processing at 0.00 MB/sec
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs
+      Done processing VizportalCpp logs. Processed 0 files in 00:00:00. Elapsed: 00:00:00. Total size: 0 MB. Processing at 0.00 MB/sec
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs
+      Starting to process SearchServer logs
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs => SearchServer
+      Starting to process log set part `logs.zip` for SearchServer logs
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs => SearchServer
+      Completed processing `logs.zip` for SearchServer logs. Processed 0 files in 00:00:00. Elapsed: 00:00:00. Total size: 0 MB. Processing at 0.00 MB/sec
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs
+      Done processing SearchServer logs. Processed 0 files in 00:00:00. Elapsed: 00:00:00. Total size: 0 MB. Processing at 0.00 MB/sec
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs
+      Starting to process Tabadmin logs
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs => Tabadmin
+      Starting to process log set part `logs.zip` for Tabadmin logs
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs => Tabadmin
+      Completed processing `logs.zip` for Tabadmin logs. Processed 0 files in 00:00:00. Elapsed: 00:00:00. Total size: 0 MB. Processing at 0.00 MB/sec
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs
+      Done processing Tabadmin logs. Processed 0 files in 00:00:00. Elapsed: 00:00:00. Total size: 0 MB. Processing at 0.00 MB/sec
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs
+      Starting to process ControlLogsJava logs
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs => ControlLogsJava
+      Starting to process log set part `logs.zip` for ControlLogsJava logs
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs => ControlLogsJava
+      Completed processing `logs.zip` for ControlLogsJava logs. Processed 0 files in 00:00:00. Elapsed: 00:00:00. Total size: 0 MB. Processing at 0.00 MB/sec
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs
+      Done processing ControlLogsJava logs. Processed 0 files in 00:00:00. Elapsed: 00:00:00. Total size: 0 MB. Processing at 0.00 MB/sec
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs
+      Starting to process TabadminAgentJava logs
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs => TabadminAgentJava
+      Starting to process log set part `logs.zip` for TabadminAgentJava logs
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs => TabadminAgentJava
+      Completed processing `logs.zip` for TabadminAgentJava logs. Processed 0 files in 00:00:00. Elapsed: 00:00:00. Total size: 0 MB. Processing at 0.00 MB/sec
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs
+      Done processing TabadminAgentJava logs. Processed 0 files in 00:00:00. Elapsed: 00:00:00. Total size: 0 MB. Processing at 0.00 MB/sec
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs
+      Starting to process TabadminControllerJava logs
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs => TabadminControllerJava
+      Starting to process log set part `logs.zip` for TabadminControllerJava logs
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs => TabadminControllerJava
+      Completed processing `logs.zip` for TabadminControllerJava logs. Processed 0 files in 00:00:00. Elapsed: 00:00:00. Total size: 0 MB. Processing at 0.00 MB/sec
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs
+      Done processing TabadminControllerJava logs. Processed 0 files in 00:00:00. Elapsed: 00:00:00. Total size: 0 MB. Processing at 0.00 MB/sec
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs
+      Starting to process VizportalJava logs
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs => VizportalJava
+      Starting to process log set part `logs.zip` for VizportalJava logs
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs => VizportalJava
+      Completed processing `logs.zip` for VizportalJava logs. Processed 0 files in 00:00:00. Elapsed: 00:00:00. Total size: 0 MB. Processing at 0.00 MB/sec
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs
+      Done processing VizportalJava logs. Processed 0 files in 00:00:00. Elapsed: 00:00:00. Total size: 0 MB. Processing at 0.00 MB/sec
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs
+      Telling all plugins to complete processing of any cached data
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriter[0]
+      => 22012510414270-a22776d33020-logs
+      No items written to HyperWriter<LogShark.Plugins.Apache.ApacheEvent>
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriter[0]
+      => 22012510414270-a22776d33020-logs
+      No items written to HyperWriter<LogShark.Plugins.Art.Model.FlattenedArtEvent>
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriter[0]
+      => 22012510414270-a22776d33020-logs
+      No items written to HyperWriter<LogShark.Plugins.Art.Model.FlattenedArtEvent>
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriter[0]
+      => 22012510414270-a22776d33020-logs
+      No items written to HyperWriter<LogShark.Plugins.Backgrounder.Model.BackgrounderJob>
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriter[0]
+      => 22012510414270-a22776d33020-logs
+      No items written to HyperWriter<LogShark.Plugins.Backgrounder.Model.BackgrounderJobError>
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriter[0]
+      => 22012510414270-a22776d33020-logs
+      No items written to HyperWriter<LogShark.Plugins.Backgrounder.Model.BackgrounderExtractJobDetail>
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriter[0]
+      => 22012510414270-a22776d33020-logs
+      No items written to HyperWriter<LogShark.Plugins.Backgrounder.Model.BackgrounderSubscriptionJobDetail>
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriter[0]
+      => 22012510414270-a22776d33020-logs
+      No items written to HyperWriter<LogShark.Plugins.ClusterController.ClusterControllerError>
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriter[0]
+      => 22012510414270-a22776d33020-logs
+      No items written to HyperWriter<LogShark.Plugins.ClusterController.ClusterControllerPostgresAction>
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriter[0]
+      => 22012510414270-a22776d33020-logs
+      No items written to HyperWriter<LogShark.Plugins.ClusterController.ClusterControllerDiskSpaceSample>
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriter[0]
+      => 22012510414270-a22776d33020-logs
+      No items written to HyperWriter<LogShark.Plugins.ClusterController.ClusterControllerDiskIoSample>
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriter[0]
+      => 22012510414270-a22776d33020-logs
+      No items written to HyperWriter<LogShark.Plugins.ClusterController.ZookeeperError>
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriter[0]
+      => 22012510414270-a22776d33020-logs
+      No items written to HyperWriter<LogShark.Plugins.ClusterController.ZookeeperFsyncLatency>
+[40m[32minfo[39m[22m[49m: LogShark.Plugins.Config.ConfigPlugin[0]
+      => 22012510414270-a22776d33020-logs
+      Starting to process configuration data received
+[40m[32minfo[39m[22m[49m: LogShark.Plugins.Config.ConfigPlugin[0]
+      => 22012510414270-a22776d33020-logs
+      ConfigPlugin was not able to process any configuration data. Either config files are missing or incorrect/unknown file format
+[40m[32minfo[39m[22m[49m: LogShark.Plugins.Config.ConfigPlugin[0]
+      => 22012510414270-a22776d33020-logs
+      0 process topology entries generated and written
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriter[0]
+      => 22012510414270-a22776d33020-logs
+      No items written to HyperWriter<LogShark.Plugins.Config.Models.ConfigEntry>
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriter[0]
+      => 22012510414270-a22776d33020-logs
+      No items written to HyperWriter<LogShark.Plugins.Config.Models.ConfigProcessInfo>
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriter[0]
+      => 22012510414270-a22776d33020-logs
+      No items written to HyperWriter<LogShark.Plugins.DataServer.Model.DataServerEvent>
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriter[0]
+      => 22012510414270-a22776d33020-logs
+      No items written to HyperWriter<LogShark.Plugins.Filestore.FilestoreEvent>
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriter[0]
+      => 22012510414270-a22776d33020-logs
+      No items written to HyperWriter<LogShark.Plugins.Hyper.Model.HyperError>
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriter[0]
+      => 22012510414270-a22776d33020-logs
+      No items written to HyperWriter<LogShark.Plugins.Hyper.Model.HyperEvent>
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriter[0]
+      => 22012510414270-a22776d33020-logs
+      No items written to HyperWriter<LogShark.Plugins.Netstat.NetstatActiveConnection>
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriter[0]
+      => 22012510414270-a22776d33020-logs
+      No items written to HyperWriter<LogShark.Plugins.Postgres.PostgresEvent>
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriter[0]
+      => 22012510414270-a22776d33020-logs
+      No items written to HyperWriter<LogShark.Plugins.ResourceManager.Model.ResourceManagerAction>
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriter[0]
+      => 22012510414270-a22776d33020-logs
+      No items written to HyperWriter<LogShark.Plugins.ResourceManager.Model.ResourceManagerCpuSample>
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriter[0]
+      => 22012510414270-a22776d33020-logs
+      No items written to HyperWriter<LogShark.Plugins.ResourceManager.Model.ResourceManagerMemorySample>
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriter[0]
+      => 22012510414270-a22776d33020-logs
+      No items written to HyperWriter<LogShark.Plugins.ResourceManager.Model.ResourceManagerThreshold>
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriter[0]
+      => 22012510414270-a22776d33020-logs
+      No items written to HyperWriter<LogShark.Plugins.ResourceManager.Model.ResourceManagerHighCpuUsage>
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriter[0]
+      => 22012510414270-a22776d33020-logs
+      No items written to HyperWriter<LogShark.Plugins.SearchServer.SearchServerEvent>
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriter[0]
+      => 22012510414270-a22776d33020-logs
+      No items written to HyperWriter<LogShark.Plugins.ServerTelemetry.ServerTelemetryEvent>
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriter[0]
+      => 22012510414270-a22776d33020-logs
+      No items written to HyperWriter<LogShark.Plugins.ServerTelemetry.ServerTelemetryMetric>
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriter[0]
+      => 22012510414270-a22776d33020-logs
+      No items written to HyperWriter<LogShark.Plugins.Tabadmin.Model.TabadminAction>
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriter[0]
+      => 22012510414270-a22776d33020-logs
+      No items written to HyperWriter<LogShark.Plugins.Tabadmin.Model.TableauServerVersion>
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriter[0]
+      => 22012510414270-a22776d33020-logs
+      No items written to HyperWriter<LogShark.Plugins.Tabadmin.Model.TabadminError>
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriter[0]
+      => 22012510414270-a22776d33020-logs
+      No items written to HyperWriter<LogShark.Plugins.TabadminController.TabadminControllerEvent>
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriter[0]
+      => 22012510414270-a22776d33020-logs
+      No items written to HyperWriter<LogShark.Plugins.Vizportal.VizportalEvent>
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriter[0]
+      => 22012510414270-a22776d33020-logs
+      No items written to HyperWriter<LogShark.Plugins.VizqlDesktop.Model.VizqlDesktopSession>
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriter[0]
+      => 22012510414270-a22776d33020-logs
+      No items written to HyperWriter<LogShark.Plugins.VizqlDesktop.Model.VizqlDesktopErrorEvent>
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriter[0]
+      => 22012510414270-a22776d33020-logs
+      No items written to HyperWriter<LogShark.Plugins.VizqlDesktop.Model.VizqlEndQueryEvent>
+[40m[37mdbug[39m[22m[49m: LogShark.Writers.Hyper.HyperWriter[0]
+      => 22012510414270-a22776d33020-logs
+      No items written to HyperWriter<LogShark.Plugins.VizqlDesktop.Model.VizqlPerformanceEvent>
+[40m[32minfo[39m[22m[49m: LogShark.TableauLogsProcessor[0]
+      => 22012510414270-a22776d33020-logs
+      Completed reading log set and generating data
+[40m[32minfo[39m[22m[49m: LogShark.Shared.LogReading.TableauLogsExtractor[0]
+      => 22012510414270-a22776d33020-logs
+      Disposing log extractor temporary files...
+[40m[32minfo[39m[22m[49m: LogShark.Shared.LogReading.TableauLogsExtractor[0]
+      => 22012510414270-a22776d33020-logs
+      Log extractor temporary files disposed
+[40m[37mdbug[39m[22m[49m: LogShark.LogSharkRunner[0]
+      => 22012510414270-a22776d33020-logs
+      Log processing failed with error: Did not find any Tableau log files associated with requested plugins in `logs.zip`. Plugins requested: `ALL`. Please make sure that provided path is a zip file generated by Tableau Server, or unzipped copy of the same file (with file structure preserved), or zip file with Desktop logs
+[40m[32minfo[39m[22m[49m: LogShark.Program[0]
+      
+      -----Summary-----
+      Run ID 22012510414270-a22776d33020-logs failed after running for 00:00:04.0349349. Reported problem: Did not find any Tableau log files associated with requested plugins in `logs.zip`. Plugins requested: `ALL`. Please make sure that provided path is a zip file generated by Tableau Server, or unzipped copy of the same file (with file structure preserved), or zip file with Desktop logs
+      This problem is not transient and is unlikely to go away if LogShark is run again.
+      Information below might contain more details on what exactly failed
+      LogShark version: 4.2.1.0
+      
+      -----Processing errors-----
+      No errors occurred while processing log set
+      
+      -----Log Reading Statistics-----
+      Log processing did not complete successfully. Error message: Did not find any Tableau log files associated with requested plugins in `logs.zip`. Plugins requested: `ALL`. Please make sure that provided path is a zip file generated by Tableau Server, or unzipped copy of the same file (with file structure preserved), or zip file with Desktop logs
+      Processed directory full size: 0 MB
+      No relevant log files found for plugins selected or all log types failed to process
+      
+      -----Data Writers Statistics-----
+      

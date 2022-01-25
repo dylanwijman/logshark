@@ -1,0 +1,61 @@
+#1 [internal] load build definition from Dockerfile
+#1 sha256:5da379ab2917cf7e69eeb9092cb0268a395a27e84df3cee095ebd527df250120
+#1 transferring dockerfile: 37B done
+#1 DONE 0.0s
+
+#2 [internal] load .dockerignore
+#2 sha256:9aedb51eb7f2c3d86f31df330b27376c00510a1253edbbaf8ec839429fc9ed38
+#2 transferring context: 34B done
+#2 DONE 0.0s
+
+#4 [internal] load metadata for mcr.microsoft.com/dotnet/core/sdk:3.1-alpine
+#4 sha256:e75c110bf314d48f1d6b1dac8e3717e0d230e5ab53770151efaa10398fd6e135
+#4 ...
+
+#3 [internal] load metadata for mcr.microsoft.com/dotnet/core/runtime:3.1
+#3 sha256:6214d8f1de6b117eab39c93b0da41c064c921aacd95ce4550e39dac744f134a8
+#3 DONE 0.1s
+
+#4 [internal] load metadata for mcr.microsoft.com/dotnet/core/sdk:3.1-alpine
+#4 sha256:e75c110bf314d48f1d6b1dac8e3717e0d230e5ab53770151efaa10398fd6e135
+#4 DONE 0.2s
+
+#5 [stage-1 1/3] FROM mcr.microsoft.com/dotnet/core/runtime:3.1@sha256:263552b22d4a6241abdcc53e5cfe3a778ec815220ef9d9339977919b0fb91159
+#5 sha256:32bfc0e69ab58a5c226add543bdc1bef174ef862b5186d3ce2b14cc766c467df
+#5 DONE 0.0s
+
+#7 [build 1/4] FROM mcr.microsoft.com/dotnet/core/sdk:3.1-alpine@sha256:121849d5877e2f019b04fca566da4b1e4abd9a6b829df47506930cd348f603db
+#7 sha256:04309f376f2ea167b8362717f1273389f1954e48ca62e0360d79b8380b2ec509
+#7 DONE 0.0s
+
+#9 [internal] load build context
+#9 sha256:60b9cdea790168c82ef107544aeec1a0fb3da5eb067396e3048cc168141e3906
+#9 transferring context: 58.85kB 0.1s done
+#9 DONE 0.1s
+
+#11 [build 4/4] RUN dotnet publish "LogShark/LogShark.csproj" -r linux-x64 --self-contained false -c Release /p:Version=4.2.1 -o out
+#11 sha256:423cb1ec6c14e95dbe0c8f06e970ec2a711ce42830c5373802df7756fcc1fe2c
+#11 CACHED
+
+#6 [stage-1 2/3] WORKDIR /app
+#6 sha256:7d0cfae1b007b7e771be7beed6e619d21cdada49aaacdb092a10fb856b20a333
+#6 CACHED
+
+#8 [build 2/4] WORKDIR /app
+#8 sha256:19d005fdcff87e8bfb40b53f25ae3f68a76275b8d580f09c66bb96bab8329b17
+#8 CACHED
+
+#10 [build 3/4] COPY . ./
+#10 sha256:541faea5f466905b1da32f56adec29277fce9802e748a67a051bfb2f92906ae2
+#10 CACHED
+
+#12 [stage-1 3/3] COPY --from=build /app/out .
+#12 sha256:a06ba85627b09282ef231f4feb26798ce7623168e6483603e36df6c1564d6847
+#12 CACHED
+
+#13 exporting to image
+#13 sha256:e8c613e07b0b7ff33893b694f7759a10d42e180f2b4dc349fb57dc6b71dcab00
+#13 exporting layers done
+#13 writing image sha256:9c3d8c68d289b29136067ec13de311b152916bcca00a33bafc0bc00ffc923ac8 done
+#13 naming to docker.io/library/logshark done
+#13 DONE 0.0s

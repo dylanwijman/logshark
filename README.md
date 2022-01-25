@@ -23,9 +23,13 @@ NOTE: Docker does not run on startup and is required for Logshark.
 You can set it to run on startup in the General settings
 
 ## Setting up
-In terminal:
 
-(Optional): Enter an alternative installation path, if you prefer a different installation location then /home/<youruser>/logshark
+Open terminal:
+
+The default install location is: <b>/home/yourusername/logshark</b>
+
+If you want to change this, go to the alternative directory using "cd":
+
 ```
   #Example:
   cd ~/Documents
@@ -34,9 +38,7 @@ Now you are ready to copy the required files from this repository:
 ```
 git clone https://github.com/dylanwijman/logshark.git
 ```
-Run "setup.command" from finder by double clicking.
-  
-This file can be found in the newly created logshark directory. (/home/<youruser>/logshark)
+Open Finder and go to you install location (/home/yourusername/logshark) and run <b>setup.command</b> by double clicking.
   
 A terminal window will pop up to set up logshark and create the directories.
 

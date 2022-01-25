@@ -1,6 +1,7 @@
 .DS_Store
 input/
 output/
+logs/
 LogSharkConfig.json
 Logshark/
 .DS_Store

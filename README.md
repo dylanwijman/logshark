@@ -59,10 +59,11 @@ The terminal window can be closed after running
 
 ## Running Logshark
 - Put <b>a single</b> .zip logfile in the input directory
-- <b>Optional</b>: Apply configuration changes to LogSharkConfig.json as needed
-- Then double-click the RUN.command file to process
+- <b>Optional</b>: Apply configuration changes to LogSharkConfig.json in the <b>/home/yourusername/logshark</b> directory
+- Double-click the RUN.command file to analyze the logfiles
 - Find the resulting workbooks in the output directory
-  
-Default location of the input directory is: <b>/home/yourusername/logshark/input/ </b>
-  
-Default location of the output directory is: <b>/home/yourusername/logshark/output/ </b>
+
+Hints:
+- Default location of the input directory is: <b>/home/yourusername/logshark/input/ </b>
+- The .zip file should be a compressed version of this folder: <b>/Users/yourusername/Documents/My Tableau Repository/Logs</b>
+- Default location of the output directory is: <b>/home/yourusername/logshark/output/ </b>

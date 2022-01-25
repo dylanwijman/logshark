@@ -49,13 +49,19 @@ Now you are ready to copy the required files from this repository:
 git clone https://github.com/dylanwijman/logshark.git
 ```
 Open Finder and go to you install location (/home/yourusername/logshark) and run <b>setup.command</b> by double clicking.
-  
-A terminal window will pop up to set up logshark and create the directories.
+
+This will:
+- Create input, output and log directories
+- Make a copy of the official Logshark repository (https://github.com/tableau/Logshark)
+- Create an image that can process Tableau logfile archieves
+
+The terminal window can be closed after running
 
 ## Running Logshark
-- Put <b>one</b> .zip file in the input directory
+- Put <b>a single</b> .zip logfile in the input directory
 - <b>Optional</b>: Apply configuration changes to LogSharkConfig.json as needed
 - Then double-click the RUN.command file to process
+- Find the resulting workbooks in the output directory
   
 Default location of the input directory is: <b>/home/yourusername/logshark/input/ </b>
   

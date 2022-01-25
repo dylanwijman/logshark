@@ -34,14 +34,17 @@ Now you are ready to copy the required files from this repository:
 ```
 git clone https://github.com/dylanwijman/logshark.git
 ```
-Run <b>setup.command<b> from finder by double clicking.
+Run "setup.command" from finder by double clicking.
   
 This file can be found in the newly created logshark directory. (/home/<youruser>/logshark)
   
 A terminal window will pop up to set up logshark and create the directories.
 
 ## Running Logshark
--Put <b>one<b> .zip file in the input directory
--Then double-click the RUN.command file
+- Put <b>one</b> .zip file in the input directory
+- <b>Optional</b>: Apply configuration changes to LogSharkConfig.json as needed
+- Then double-click the RUN.command file to process
   
-Default location of the input directory is: <b>/home/yourusername/logshark/input <b>
+Default location of the input directory is: <b>/home/yourusername/logshark/input/ </b>
+  
+Default location of the output directory is: <b>/home/yourusername/logshark/output/ </b>

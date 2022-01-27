@@ -1,11 +1,19 @@
-# Logshark for MacOS in Docker
-This project is meant to set up Logshark on MacOs in a few easy steps using Docker.
-After setting up you can visualize Tableau logfiles by the press of a single button.
+# Logshark for MacOS (in a container)
+This project is meant to bring Logshark to MacOS in a few easy steps that everyone can follow.
+
+After setting up you have:
+- Used almost no command line to set this up
+- One input directory to put your Tableau logs
+- One button to process your logs
+- One output directory that contains Tableau workbooks with nice visualiztions of your logfiles:
+
+![SampleScreenshot](https://user-images.githubusercontent.com/6339819/151360920-1f4044ad-6560-43e0-a360-cf2a5bf29f7d.png)
+
 
 ## Prerequisites 
 This section explains how to set up Git and Docker, if you do not have it installed already.
 
-- Git will be used to download the Logshark application and this project
+- Git will be used to download the most recent version of the Logshark application and the files within this project
 - The application will be run as a Docker container
 
 ### Git
@@ -23,11 +31,12 @@ usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
            [--super-prefix=<path>] [--config-env=<name>=<envvar>]
            <command> [<args>]
 ```
-If you don't have it installed, you wil be prompted to install developer tools.
+2. If you don't have it installed, you wil be prompted to install developer tools.
 
-Install the developer tools, so git and other command line tools are installed.
+3. Install the developer tools, so git and other command line tools are installed.
 
 <b>NOTE:</b> This can take a while to install.
+
 In the meantime you can proceed installing Docker
 
 ### Docker
@@ -51,7 +60,7 @@ The default install location will be: <b>/home/yourusername/logshark</b>
 2. <b>Optional:</b>If you want to change the installation location, go to the alternative directory using "cd":
 
 ```
-  cd ~/Documents
+  cd /home/yourusername/Documents
 ```
 3. Now you are ready to copy the required files from this repository:
 ```

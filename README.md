@@ -1,4 +1,4 @@
-# Easy Logshark for MacOS
+# Logshark for MacOS in Docker
 This project is meant to set up Logshark on MacOs in a few easy steps using Docker.
 After setting up you can visualize Tableau logfiles by the press of a single button.
 
@@ -85,6 +85,7 @@ The terminal will open and process the logs.
 
 
 4. Find the analyzed files in the <b>output</b> directory and check them out in Tableau:
+
 <img width="1017" alt="Screen Shot 2022-01-27 at 11 46 26" src="https://user-images.githubusercontent.com/6339819/151343989-257b2375-02dd-4c0f-8ec8-497bac0abaf2.png">
 
 

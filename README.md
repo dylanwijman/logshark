@@ -69,17 +69,22 @@ This will:
 - Build the application that processes your Tableau (server) log files
 
 Result:
+
 <img width="917" alt="Screen Shot 2022-01-27 at 10 51 40" src="https://user-images.githubusercontent.com/6339819/151334970-d8976a4d-fe14-4b79-8d18-92f6b9952c1c.png">
 
 The terminal window can be closed after running
 
 ## Running Logshark
-- Put <b>a single</b> .zip logfile in the input directory
-- <b>Optional</b>: Apply configuration changes to LogSharkConfig.json in the <b>/home/yourusername/logshark</b> directory
-- Double-click the RUN.command file to analyze the logfiles
-- Find the resulting workbooks in the output directory
+1. Zip the log files from your Tableau Server or Tableau Desktop:
+<img width="714" alt="Screen Shot 2022-01-27 at 11 14 21" src="https://user-images.githubusercontent.com/6339819/151342822-b7101977-5f9b-466f-8a16-13f72521cc09.png">
+2. Put the .zip file in the input folder of Logshark
+<img width="226" alt="Screen Shot 2022-01-27 at 11 41 23" src="https://user-images.githubusercontent.com/6339819/151343161-30737d5c-2475-47f3-8b5d-7c88aa86112b.png">
+3. Double-click the <b>RUN.command file</b> to analyze the logfiles. The terminal will open and process the logs.
+4. Find the analyzed files in the <b>output</b> directory and check them out in Tableau:
+<img width="1017" alt="Screen Shot 2022-01-27 at 11 46 26" src="https://user-images.githubusercontent.com/6339819/151343989-257b2375-02dd-4c0f-8ec8-497bac0abaf2.png">
 
-Hints:
+
+## Hints for using Logshark:
 - Default location of the input directory is: <b>/home/yourusername/logshark/input/ </b>
 - For Tableau Desktop: The .zip file should be a compressed version of this folder: <b>/Users/yourusername/Documents/My Tableau Repository/Logs</b>
 - Default location of the output directory is: <b>/home/yourusername/logshark/output/ </b>

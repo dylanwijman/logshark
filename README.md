@@ -79,7 +79,11 @@ The terminal window can be closed after running
 <img width="714" alt="Screen Shot 2022-01-27 at 11 14 21" src="https://user-images.githubusercontent.com/6339819/151342822-b7101977-5f9b-466f-8a16-13f72521cc09.png">
 2. Put the .zip file in the input folder of Logshark
 <img width="226" alt="Screen Shot 2022-01-27 at 11 41 23" src="https://user-images.githubusercontent.com/6339819/151343161-30737d5c-2475-47f3-8b5d-7c88aa86112b.png">
-3. Double-click the <b>RUN.command file</b> to analyze the logfiles. The terminal will open and process the logs.
+3. Double-click the <b>RUN.command file</b> to analyze the logfiles. 
+
+The terminal will open and process the logs.
+
+
 4. Find the analyzed files in the <b>output</b> directory and check them out in Tableau:
 <img width="1017" alt="Screen Shot 2022-01-27 at 11 46 26" src="https://user-images.githubusercontent.com/6339819/151343989-257b2375-02dd-4c0f-8ec8-497bac0abaf2.png">
 

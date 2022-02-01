@@ -1,8 +1,23 @@
-# Easy Logshark for MacOS
+# Logshark for MacOS (Not yet for Apple M1 chip)
+This project is meant to bring Logshark to MacOS in a few easy steps that everyone can follow.
+
+After setting up you have:
+- Used almost no command line to set this up
+- One input directory to put your Tableau logs
+- One button to process your logs
+- One output directory that contains Tableau workbooks with nice visualiztions of your logfiles:
+
+![SampleScreenshot](https://user-images.githubusercontent.com/6339819/151360920-1f4044ad-6560-43e0-a360-cf2a5bf29f7d.png)
+
 
 ## Prerequisites 
+This section explains how to set up Git and Docker, if you do not have it installed already.
+
+- Git will be used to download the most recent version of the Logshark application and the files within this project
+- The application will be run as a Docker container
+
 ### Git
-Try to run this command in terminal: 
+1. Open up a terminal and try to execute the following command:
 ```
 git
 ```
@@ -16,54 +31,80 @@ usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
            [--super-prefix=<path>] [--config-env=<name>=<envvar>]
            <command> [<args>]
 ```
-If you don't have it installed, you wil be prompted to install developer tools.
+2. If you don't have it installed, you wil be prompted to install developer tools.
 
-Install the developer tools, so git and other command line tools are installed.
+3. Install the developer tools, so git and other command line tools are installed.
 
-NOTE: This can take a while to install.
+<b>NOTE:</b> This can take a while to install.
+
 In the meantime you can proceed installing Docker
 
 ### Docker
-1. Go to https://docs.docker.com/desktop/mac/install/ to download the appropriate installer
+1. Go to https://docs.docker.com/desktop/mac/install/ to download the appropriate installer (Intel/Apple chip)<img width="1019" alt="Screen Shot 2022-01-27 at 09 51 51" src="https://user-images.githubusercontent.com/6339819/151333114-804d4d65-cfa2-4189-af1a-a03ee4491d0d.png">
+
 2. Install the application
+<img width="722" alt="Screen Shot 2022-01-27 at 10 42 55" src="https://user-images.githubusercontent.com/6339819/151333591-f1eb984f-d333-4dda-b7c4-d4b6eb0b4eb8.png">
+
 3. Make sure docker is running by checking if this icon is present:
 <img width="395" alt="Screen Shot 2022-01-24 at 15 10 46" src="https://user-images.githubusercontent.com/6339819/150816789-20b8c7f3-52cf-4097-803d-470576bba8cc.png">
 
-NOTE: Docker does not run on startup and is required for Logshark.
+<b>NOTE:</b> Docker does not run on startup and is required for Logshark.
 You can set it to run on startup in the General settings
 
 ## Setting up
 
-Open terminal:
+1. Open terminal:
 
-The default install location is: <b>/home/yourusername/logshark</b>
+The default install location will be: <b>/home/yourusername/logshark</b>
 
-If you want to change the install location, go to the alternative directory using "cd":
+2. <b>Optional:</b>If you want to change the installation location, go to the alternative directory using "cd":
 
 ```
-  #Example:
-  cd ~/Documents
+  cd /home/yourusername/Documents
 ```
-Now you are ready to copy the required files from this repository:
+3. Now you are ready to copy the required files from this repository:
 ```
 git clone https://github.com/dylanwijman/logshark.git
 ```
-Open Finder and go to you install location (/home/yourusername/logshark) and run <b>setup.command</b> by double clicking.
+4. Open Finder and go to you install location (/home/yourusername/logshark) 
+The directory should look like this:
+<img width="590" alt="Screen Shot 2022-01-27 at 10 49 24" src="https://user-images.githubusercontent.com/6339819/151334671-c74977c2-41dc-4926-ba84-d995e1535ae4.png">
+
+5. Run <b>setup.command</b> by double clicking it.
 
 This will:
 - Create input, output and log directories
 - Make a copy of the official Logshark repository (https://github.com/tableau/Logshark)
-- Create an image that can process Tableau logfile archieves
+- Build the application that processes your Tableau (server) log files
+
+Result:
+
+<img width="917" alt="Screen Shot 2022-01-27 at 10 51 40" src="https://user-images.githubusercontent.com/6339819/151334970-d8976a4d-fe14-4b79-8d18-92f6b9952c1c.png">
 
 The terminal window can be closed after running
 
 ## Running Logshark
-- Put <b>a single</b> .zip logfile in the input directory
-- <b>Optional</b>: Apply configuration changes to LogSharkConfig.json in the <b>/home/yourusername/logshark</b> directory
-- Double-click the RUN.command file to analyze the logfiles
-- Find the resulting workbooks in the output directory
+1. Get the zipped log files from your Tableau Server or Tableau Desktop using the command:
 
-Hints:
+```
+tsm maintenance ziplogs
+```
+Reference:
+https://help.tableau.com/current/server/en-us/cli_maintenance_tsm.htm#tsm4ziplogs
+
+2. Put the .zip file in the input folder of Logshark
+<img width="226" alt="Screen Shot 2022-01-27 at 11 41 23" src="https://user-images.githubusercontent.com/6339819/151343161-30737d5c-2475-47f3-8b5d-7c88aa86112b.png">
+3. Double-click the <b>RUN.command file</b> to analyze the logfiles. 
+
+The terminal will open and process the logs.
+
+
+4. Find the analyzed files in the <b>output</b> directory and check them out in Tableau:
+
+<img width="1017" alt="Screen Shot 2022-01-27 at 11 46 26" src="https://user-images.githubusercontent.com/6339819/151343989-257b2375-02dd-4c0f-8ec8-497bac0abaf2.png">
+
+
+## Hints for using Logshark:
 - Default location of the input directory is: <b>/home/yourusername/logshark/input/ </b>
-- The .zip file should be a compressed version of this folder: <b>/Users/yourusername/Documents/My Tableau Repository/Logs</b>
+- For Tableau Desktop: The .zip file should be a compressed version of this folder: <b>/Users/yourusername/Documents/My Tableau Repository/Logs</b>
 - Default location of the output directory is: <b>/home/yourusername/logshark/output/ </b>

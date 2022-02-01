@@ -92,7 +92,7 @@ tsm maintenance ziplogs
 Reference:
 https://help.tableau.com/current/server/en-us/cli_maintenance_tsm.htm#tsm4ziplogs
 
-2. Put the .zip file in the input folder of Logshark
+2. Put the .zip file(s) in the input folder of Logshark (they will be moved to the input/archive folder afterwards)
 <img width="226" alt="Screen Shot 2022-01-27 at 11 41 23" src="https://user-images.githubusercontent.com/6339819/151343161-30737d5c-2475-47f3-8b5d-7c88aa86112b.png">
 3. Double-click the <b>RUN.command file</b> to analyze the logfiles. 
 

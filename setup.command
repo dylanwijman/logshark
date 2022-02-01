@@ -4,6 +4,7 @@ MY_PATH=$(dirname "$0")
 cd "$MY_PATH"
 # Create directories
 mkdir input
+mkdir input/archive
 mkdir output
 mkdir logs
 # Clone and build Logshark

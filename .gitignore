@@ -1,5 +1,6 @@
 .DS_Store
 input/
+input/archive/
 output/
 logs/
 LogSharkConfig.json

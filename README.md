@@ -84,8 +84,14 @@ Result:
 The terminal window can be closed after running
 
 ## Running Logshark
-1. Zip the log files from your Tableau Server or Tableau Desktop:
-<img width="714" alt="Screen Shot 2022-01-27 at 11 14 21" src="https://user-images.githubusercontent.com/6339819/151342822-b7101977-5f9b-466f-8a16-13f72521cc09.png">
+1. Get the zipped log files from your Tableau Server or Tableau Desktop using the command:
+
+```
+tsm maintenance ziplogs
+```
+Reference:
+https://help.tableau.com/current/server/en-us/cli_maintenance_tsm.htm#tsm4ziplogs
+
 2. Put the .zip file in the input folder of Logshark
 <img width="226" alt="Screen Shot 2022-01-27 at 11 41 23" src="https://user-images.githubusercontent.com/6339819/151343161-30737d5c-2475-47f3-8b5d-7c88aa86112b.png">
 3. Double-click the <b>RUN.command file</b> to analyze the logfiles. 

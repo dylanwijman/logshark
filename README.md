@@ -70,7 +70,7 @@ git clone https://github.com/dylanwijman/logshark.git
 The directory should look like this:
 <img width="590" alt="Screen Shot 2022-01-27 at 10 49 24" src="https://user-images.githubusercontent.com/6339819/151334671-c74977c2-41dc-4926-ba84-d995e1535ae4.png">
 
-5. Run <b>setup.command</b> by double clicking it. (or setup_AppleM1.command, if you have a M1 Processor)
+5. Run <b>setup.command</b> by double clicking it. (or <b>setup_AppleM1.command</b>, if you have a M1 Processor)
 
 This will:
 - Create input, output and log directories
@@ -94,7 +94,7 @@ https://help.tableau.com/current/server/en-us/cli_maintenance_tsm.htm#tsm4ziplog
 
 2. Put the .zip file(s) in the input folder of Logshark (they will be moved to the input/archive folder afterwards)
 <img width="226" alt="Screen Shot 2022-01-27 at 11 41 23" src="https://user-images.githubusercontent.com/6339819/151343161-30737d5c-2475-47f3-8b5d-7c88aa86112b.png">
-3. Double-click the <b>RUN.command file</b> to analyze the logfiles. (or RUN_AppleM1.command, if you have a M1 Processor)
+3. Double-click the <b>RUN.command file</b> to analyze the logfiles. (or <b>RUN_AppleM1.command</b>, if you have a M1 Processor)
 
 The terminal will open and process the logs.
 

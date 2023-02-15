@@ -9,8 +9,9 @@ mkdir output
 mkdir logs
 # Clone and build Logshark
 git clone https://github.com/tableau/Logshark.git |& tee "$MY_PATH"/logs/gitclone.txt
+cp LogShark.csproj Logshark/LogShark/LogShark.csproj
 cd Logshark
-git checkout 43e53bf055de44146570708ddf7d9a5e0a4d319b
+#git checkout 43e53bf055de44146570708ddf7d9a5e0a4d319b
 docker build -f LogShark/Dockerfile -t logshark . |& tee "$MY_PATH"/logs/dockerbuild.txt
 cd ..
 # Copy the OOTB config file

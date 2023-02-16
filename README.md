@@ -1,4 +1,4 @@
-# Logshark for MacOS (Now also for Apple M1 chip!)
+# Logshark for MacOS (Also for Apple M1)
 This project is meant to bring Logshark to MacOS in a few easy steps that everyone can follow.
 
 After setting up you have:
